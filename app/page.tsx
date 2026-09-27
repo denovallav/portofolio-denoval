@@ -486,7 +486,7 @@ export default function Portfolio() {
                       {[
                         { src: '/Vidio1.mp4', title: 'Social Media Edit', tags: ['Branding','Social Media'] },
                         { src: '/Vidio2.mp4', title: 'Creative Content',  tags: ['Poster','Design'] },
-                        { src: '/vidio3.mp4', title: 'Motion Graphics',   tags: ['Motion','Color Grading'] },
+                        { src: '/Vidio3.mp4', title: 'Motion Graphics',   tags: ['Motion','Color Grading'] },
                         { src: '/Vidio4.mp4', title: 'Video Editing',     tags: ['Video Editing','Creative'] },
                       ].map((v, i) => (
                         <VideoCard key={i} src={v.src} title={v.title} tags={v.tags} accent={cat.accent} />
